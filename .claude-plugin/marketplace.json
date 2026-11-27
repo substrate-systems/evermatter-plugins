@@ -1,0 +1,19 @@
+{
+  "name": "evermatter",
+  "description": "Evermatter plugins for Claude Code and Cowork.",
+  "owner": {
+    "name": "Evermatter"
+  },
+  "plugins": [
+    {
+      "name": "evermatter",
+      "description": "Evermatter for an Evermatter account: connects Claude to Evermatter and adds automatic recall and capture.",
+      "category": "knowledge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/substrate-systems/evermatter.git",
+        "path": "plugins/cloud/generated/claude-hooks"
+      }
+    }
+  ]
+}
